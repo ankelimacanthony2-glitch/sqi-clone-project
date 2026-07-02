@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+.AI,
 .header-link {
   /* border: 1px solid red; */
   display: flex;

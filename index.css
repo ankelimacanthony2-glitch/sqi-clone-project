@@ -617,14 +617,13 @@
 .a-rev div{
     transition: all 2s;
     animation-name: slide;
-    
 }
 @keyframes slide{
     0%{
-        transform: translateX(0);
+      transform: translateX(0);
     }
     100%{
-        transform: translateX(-100%);
+      transform: translateX(-100%);
     }
 }
 .omolola{
@@ -853,6 +852,32 @@
 .questions-container{
   border: 1px solid red;
   margin: 0px 90px;
+  padding-top: 60px;
   display: flex;
   justify-content: space-between;
+}
+.faq h4{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.faq h2{
+  color: #FFFFFF;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 39px;
+  line-height: 46.8px;
+  font-weight: 500;
+}
+.question-a{
+  margin-top: 30px;
+}
+.question-a a{
+  color: #D0A73F;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  /* margin-top: 60px; */
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
